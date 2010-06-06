@@ -1,0 +1,58 @@
+! --------------------------
+! file: ~/.Xdefaults
+! author: Bartek Chaber - czaber
+! modified: June 2010
+! vim:enc=utf-8:nu:ai:si:et:ts=4:sw=4:ft=xdefaults:
+! -------------------------
+#URxvt.imLocale: pl_PL.UTF-8
+#URxvt.cursorBlink: true
+#URxvt.depth: 32
+#URxvt.tintColor: #262626
+#URxvt.borderLess: true
+Xcursor*theme: Vanilla-DMZ
+Xcursor.size: 22
+URxvt.urgentOnBell: true
+URxvt.termName:   rxvt
+URxvt.scrollBar:  false
+URxvt.saveLines:  500
+URxvt.font:       xft:Dejavu Sans Mono:pixelsize=14
+URxvt.boldFont:   xft:Dejavu Sans Mono:bold:pixelsize=14
+URxvt.background: #eeeeee
+URxvt.foreground: #111111
+
+dzen2.font:       xft:Dejavu Sans Mono:pixelsize=14
+dzen2.background: #252525
+dzen2.foreground: #ffffff
+
+# black
+*color0:  #111111
+# red
+*color1:  #b0230d
+# green
+*color2:  #2f8e2a
+# yellow
+*color3:  #cfbc39
+# blue
+*color4:  #375d81
+# magenta
+*color5:  #ab4cd4
+# cyan
+*color6:  #22bdcf
+# white
+*color7:  #999999
+# black bold
+*color8:  #444444
+# red bold / orange
+*color9:  #d93c12
+# green bold
+*color10: #2f642a
+# yellow bold
+*color11: #f9bc39
+# blue bold
+*color12: #6A9FDB
+# magenta bold
+*color13: #884ca1
+# cyan bold
+*color14: #22b793
+# white bold
+*color15: #eeeeee
