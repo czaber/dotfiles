@@ -1,0 +1,8 @@
+startup_message off
+autodetach on
+vbell off
+multiuser on
+altscreen on
+#attrcolor b ".I"
+hardstatus alwayslastline
+hardstatus string "%{= Wk} %d.%m.%Y %c %-="
