@@ -1,0 +1,17 @@
+.dwb_hint {
+  opacity:            1.0    !important;
+  margin:             0      !important;
+/*padding:            5px    !important;*/
+  background:         none   !important;
+  border:             none   !important;
+  color:              #fff   !important;
+  font-size:          1.5em  !important;
+  line-height:        1.5em  !important;
+  font-weight:        bold   !important;
+  font-variant:       normal !important;
+  font-family:        "Comic Sans" !important;
+  text-decoration:    none   !important;
+  text-shadow: -1px -1px 0 #444, 1px -1px 0 #444, -1px 1px 0 #444, 1px 1px 0 #444;
+}
+
+

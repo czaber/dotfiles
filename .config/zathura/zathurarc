@@ -1,0 +1,4 @@
+set inputbar-bg "#000000"
+set inputbar-fg "#ffffff"
+set font "inconsolata 15"
+set font "Linux Libertine Mono O 12"
