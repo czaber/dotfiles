@@ -1,3 +1,5 @@
 [user]
 	email = czaber@gmail.com
 	name = Bartosz Chaber
+[push]
+	default = matching
