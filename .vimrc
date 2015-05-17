@@ -1,3 +1,3 @@
 set nowrap
-set number
+set nonumber
 syntax on

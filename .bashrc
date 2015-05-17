@@ -119,13 +119,13 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-PS1='\[\033[01;31m\]< \[\033[00m\]'
+PS1='\[\033[01;30m\]$ \[\033[00m\]'
 #PS1='\[\033[01;31m\]:\[\033[00m\]'
 #PS1='\[\033[01;35m\]= \[\033[00m\]'
 #PS1='\[\033[01;30m\]« \[\033[00m\]'
 
 if [ "$TERM" = "linux" ]; then
-    #echo -en "\e]P0111111" # black
+    echo -en "\e]P0111111" # black
     echo -en "\e]P0000000" # black
     echo -en "\e]P8444444" # darkgrey
     echo -en "\e]P1B32E37" # darkred
