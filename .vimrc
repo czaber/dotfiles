@@ -1,3 +1,4 @@
 set nowrap
-set nonumber
+set number
 syntax on
+colorscheme grey
