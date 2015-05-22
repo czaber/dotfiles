@@ -316,19 +316,21 @@ root.keys(globalkeys)
 -- {{{ Rules
 awful.rules.rules = {
     -- All clients will match this rule.
+    { rule = { class = "MPlayer" },
+      properties = { floating = true } },
+    { rule = { class = "Gimp" },
+      properties = { floating = true } },
+    { rule = { class = "URxvt" },
+      properties = { size_hints_honor = false } },
+    { rule = { class = "Vncviewer" },
+      properties = { floating = true, size_hints_honor = true },
+      callback = awful.placement.centered },
     { rule = { },
       properties = { border_width = beautiful.border_width,
                      border_color = beautiful.border_normal,
                      focus = true,
                      keys = clientkeys,
-                     size_hints_honor = false,
                      buttons = clientbuttons } },
-    { rule = { class = "MPlayer" },
-      properties = { floating = true } },
-    { rule = { class = "pinentry" },
-      properties = { floating = true } },
-    { rule = { class = "gimp" },
-      properties = { floating = true } },
     -- Set Firefox to always map on tags number 2 of screen 1.
     -- { rule = { class = "Firefox" },
     --   properties = { tag = tags[1][2] } },
