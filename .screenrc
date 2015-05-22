@@ -5,4 +5,4 @@ multiuser on
 altscreen on
 #attrcolor b ".I"
 hardstatus alwayslastline
-hardstatus string "%{= Wk} %d.%m.%Y %c %-="
+hardstatus string "%{= WC} %d.%m.%Y %c %-="
