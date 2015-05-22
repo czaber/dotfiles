@@ -1,6 +1,6 @@
 alias @hel='ssh -Y '
 alias rdesktop='rdesktop'
-alias dtuvpn='sudo openconnect -5 -K -s /usr/share/vpnc-scripts/vpnc-script vpn.ait.dtu.dk'
+alias dtuvpn='sudo openconnect -s /usr/share/vpnc-scripts/vpnc-script vpn.ait.dtu.dk'
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
