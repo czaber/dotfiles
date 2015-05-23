@@ -3,12 +3,9 @@ Xft.rgba: rgb
 Xft.hinting: true
 Xft.antialias: true
 Xft.hintstyle: hintslight
-!Xft.hintstyle: hintsfull
 URxvt.borderLess: false
 URxvt.scrollBar: false
 URxvt.font: xft:CMU Typewriter Text:size=14:style=Light
-!URxvt.font: xft:Linux Libertine Mono O:size=12
-!URxvt.font: xft:Luxi Mono:size=12
 URxvt.background: white
 URxvt.foreground: black
 URxvt.externalBorder: 0
