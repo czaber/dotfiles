@@ -1,4 +1,38 @@
-set inputbar-bg "#000000"
-set inputbar-fg "#ffffff"
-set font "inconsolata 15"
-set font "Linux Libertine Mono O 12"
+set font                        "CMU Typewriter Text 12"
+set default-bg                  "#E3E3E3" #06
+set default-fg                  "#101010" #01
+
+set statusbar-fg                "#464646" #02
+set statusbar-bg                "#ABABAB" #04
+
+set inputbar-bg                 "#151515" # currently not used
+set inputbar-fg                 "#464646" #02
+
+set notification-error-bg       "#7C7C7C" #08
+set notification-error-fg       "#E3E3E3" #06
+
+set notification-warning-bg     "#7C7C7C" #08
+set notification-warning-fg     "#E3E3E3" #06
+
+set highlight-color             "#A0A0A0" #0A
+set highlight-active-color      "#7C7C7C" #08
+
+set completion-highlight-fg     "#B9B9B9" #05
+set completion-highlight-bg     "#868686" #0C
+
+set completion-bg               "#B9B9B9" #05
+set completion-fg               "#868686" #0C
+
+set notification-bg             "#8E8E8E" #0B
+set notification-fg             "#F7F7F7" #07
+
+set recolor-lightcolor          "#E3E3E3" #06
+set recolor-darkcolor           "#464646" #02
+set recolor                     "true"
+
+# setting recolor-keephue true will keep any color your pdf
+# has.  If it is set to false, it will just be shades of
+# gray.  (lol 50 shades of gray)
+set recolor-keephue             "true"
+
+# Rest of your configs go here:
