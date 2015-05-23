@@ -1,16 +1,6 @@
 " Base16 Grayscale (https://github.com/chriskempson/base16)
 " Scheme: Alexandre Gavioli (https://github.com/Alexx2/)
 
-" This enables the coresponding base16-shell script to run so that
-" :colorscheme works in terminals supported by base16-shell scripts
-" User must set this variable in .vimrc
-"   let g:base16_shell_path=base16-builder/output/shell/
-if !has('gui_running')
-  if exists("g:base16_shell_path")
-    execute "silent !/bin/sh ".g:base16_shell_path."/base16-grayscale.".&background.".sh"
-  endif
-endif
-
 " GUI color definitions
 let s:gui00 = "101010"
 let s:gui01 = "252525"
@@ -82,10 +72,6 @@ endfun
 
 " Return GUI color for light/dark variants
 fun s:gui(color)
-  if &background == "dark"
-    return a:color
-  endif
-
   if a:color == s:gui00
     return s:gui07
   elseif a:color == s:gui01
@@ -109,10 +95,6 @@ endfun
 
 " Return terminal color for light/dark variants
 fun s:cterm(color)
-  if &background == "dark"
-    return a:color
-  endif
-
   if a:color == s:cterm00
     return s:cterm07
   elseif a:color == s:cterm01
