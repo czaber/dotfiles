@@ -1,5 +1,5 @@
-alias @hel='ssh -Y '
-alias rdesktop='rdesktop'
+alias vncviewer='vncviewer -compresslevel 9 -quality 0 -nocursorshape'
+alias rdesktop='rdesktop -z -g workarea'
 alias dtuvpn='sudo openconnect -s /usr/share/vpnc-scripts/vpnc-script vpn.ait.dtu.dk'
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
