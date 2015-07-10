@@ -13,6 +13,7 @@ sudo apt-get install screen
 sudo apt-get install openconnect vpnc-scripts 
 sudo apt-get install network-manager-openvpn 
 sudo apt-get install network-manager-openconnect
+sudo apt-get install libreoffice-gnome
 
 sudo add-apt-repository ppa:mpstark/elementary-tweaks-daily
 sudo apt-get install elementary-tweaks
