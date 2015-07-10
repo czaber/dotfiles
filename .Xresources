@@ -5,9 +5,10 @@ Xft.antialias: true
 Xft.hintstyle: hintslight
 URxvt.borderLess: false
 URxvt.scrollBar: false
-URxvt.font: xft:CMU Typewriter Text:size=14:style=Light
 URxvt.externalBorder: 0
 URxvt.internalBorder: 0
+URxvt.font: xft:CMU Typewriter Text:size=14:style=Light
+xterm*faceName: CMU Typewriter Text:size=14:style=Light
 ! Base16 Grayscale
 ! Scheme: Alexandre Gavioli (https://github.com/Alexx2/)
 #define base00 #101010
