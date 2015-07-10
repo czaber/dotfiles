@@ -2,6 +2,16 @@ alias vncviewer='vncviewer -compresslevel 9 -quality 0 -nocursorshape'
 alias rdesktop='rdesktop -z -g workarea'
 alias dtuvpn='sudo openconnect -s /usr/share/vpnc-scripts/vpnc-script vpn.ait.dtu.dk'
 
+function open() {
+   command xdg-open "$1" > /dev/null 2>&1
+}
+
+function run() {
+   command sudo lxc-attach --clear-env -n $1 -- sudo -u ubuntu -i \
+	env DISPLAY=$DISPLAY TERMINFO=/usr/lib/terminfo \
+	$2
+}
+
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
