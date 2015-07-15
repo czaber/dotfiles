@@ -7,9 +7,12 @@ function open() {
 }
 
 function run() {
-   command sudo lxc-attach --clear-env -n $1 -- sudo -u ubuntu -i \
+   container=$1;
+   shift;
+   command="$@";
+   command sudo lxc-attach --clear-env -n $container -- sudo -u ubuntu -i \
 	env DISPLAY=$DISPLAY TERMINFO=/usr/lib/terminfo \
-	$2
+	$command
 }
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
