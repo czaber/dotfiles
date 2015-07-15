@@ -1,6 +1,7 @@
 alias vncviewer='vncviewer -compresslevel 9 -quality 0 -nocursorshape'
 alias rdesktop='rdesktop -z -g workarea'
 alias dtuvpn='sudo openconnect -s /usr/share/vpnc-scripts/vpnc-script vpn.ait.dtu.dk'
+alias lxc-sync='sudo rsync -aAXHltzh --progress --numeric-ids --devices' # /var/lib/lxc/foo/ /media/usb/foo/
 
 function open() {
    command xdg-open "$1" > /dev/null 2>&1
